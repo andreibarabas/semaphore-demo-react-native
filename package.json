@@ -16,7 +16,7 @@
     "detox-android-build-release": "detox build --configuration android.emu.release",
     "detox-android-test-release": "detox test --configuration android.emu.release --cleanup --headless",
     "detox-clean-and-build-cache": "detox clean-framework-cache && detox build-framework-cache",
-    "lint": "eslint *.js **/*.js ",
+    "lint": "eslint \"**/*.js\"",
     "fastlane-build-ios": "bundle exec fastlane ios build",
     "fastlane-build-android": "bundle exec fastlane android build --verbose"
   },
