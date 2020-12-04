@@ -30,6 +30,11 @@ blocks:
           - bundle install --path vendor/bundle
           - cache store
       jobs:
+        - name: Pod Install
+          commands: 
+            - cd ios
+            - pod install
+            - cd ..
         - name: Fastlane build
           commands:
             # Gym builds and packages iOS apps.
