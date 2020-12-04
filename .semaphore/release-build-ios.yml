@@ -15,6 +15,8 @@ blocks:
           # Download source code from GitHub:
           - checkout
 
+          - cache clear
+
           # Restore dependencies from cache. This command will not fail in
           # case of a cache miss. In case of a cache hit, bundle  install will
           # complete in about a second.
