@@ -30,7 +30,7 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.3.2",
     "babel-jest": "^25.1.0",
-    "detox": "^14.8.1",
+    "detox": "^17.14.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "eslint": "7.14.0",
