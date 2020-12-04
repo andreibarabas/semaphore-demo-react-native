@@ -24,10 +24,12 @@ platform :ios do
   desc "Build"
   desc "Build without code sign. Just to see if the build is working"
   lane :build do |options|
-    gym(
+    build_app(
+      workspace: "./ios/ReactNativeSemaphoreNew.xcworkspace",
       scheme: "ReactNativeSemaphoreNew",
       skip_package_ipa: true,
       skip_archive: true,
+      skip_codesigning: true,
       silent: true,
       clean: true
     )
